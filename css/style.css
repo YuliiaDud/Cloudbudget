@@ -1,0 +1,138 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.wrapper {
+  padding: 0 165px;
+}
+header {
+  background: url(/image/Rectangle\ 3.png) no-repeat 100%;
+}
+.cover {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  padding: 60px 165px 170px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  background: url(/image/Vector.png) no-repeat left top;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 35px;
+  float: left;
+}
+nav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav button {
+  border: 1px solid #ffffff;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  justify-self: end;
+}
+button:hover {
+  cursor: pointer;
+}
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+.details {
+  font-size: 24px;
+  line-height: 150%;
+  width: 540px;
+  margin: 0 auto 60px;
+  text-align: center;
+  color: white;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-text button {
+  padding: 15px 50px;
+  border: none;
+  background: #ffffff;
+  border-radius: 6px;
+  color: #ed4c5c;
+  text-transform: uppercase;
+}
+#overview {
+  padding: 95px 260px 95px 0;
+}
+#overview h2,
+p {
+  width: 450px;
+}
+h2 {
+  font-size: 36px;
+}
+#features {
+  background: #fafafa;
+}
+#features h2 {
+  padding: 65px 0;
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+}
+.feature {
+  border-radius: 8px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.feature h4 {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding: 33px;
+}
+.feature p {
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+}
+/*.first {
+  background: url(/image/Bg.png);
+  z-index: 9;
+}
+.second {
+  background: url(/image/Bg2.png);
+  z-index: 9;
+}
+.third {
+  background: url(/image/Bg3.png);
+  z-index: 9;
+}
+#fourthSection {
+  background: #ed4c5c;
+}
