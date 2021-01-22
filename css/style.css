@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: url(https://yuliiadud.github.io/Cloudbudget/blob/master/image/Rectangle\ 3.png) no-repeat 100%;
+  background: url('https://yuliiadud.github.io/Cloudbudget/blob/master/image/Rectangle.png') no-repeat 100%;
 }
 .cover {
   background: linear-gradient(
@@ -27,7 +27,7 @@ nav {
   align-items: center;
 }
 #logo {
-  background: url(https://yuliiadud.github.io/Cloudbudget/blob/master/image/Vector.png) no-repeat left top;
+  background: url('https://yuliiadud.github.io/Cloudbudget/blob/master/image/Vector.png') no-repeat left top;
   font-weight: bold;
   font-size: 18px;
   padding-left: 35px;
