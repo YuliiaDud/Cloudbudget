@@ -4,15 +4,14 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .wrapper {
   padding: 0 165px;
 }
 
 header {
-  background: url('/image/Rectangle.png')
-    no-repeat 100%;
+  background: url("/image/Rectangle.png") no-repeat 100%;
 }
 .cover {
   background: linear-gradient(
@@ -28,8 +27,7 @@ nav {
   align-items: center;
 }
 #logo {
-  background: url('/image/Vector.png') no-repeat
-    left top;
+  background: url("/image/Vector.png") no-repeat left top;
   font-weight: bold;
   font-size: 18px;
   padding-left: 35px;
@@ -174,24 +172,22 @@ h2 {
 }
 
 .cloud {
-  background: url('/image/Frame 3.png') no-repeat
-    top;
+  background: url("/image/Frame 3.png") no-repeat top;
   position: relative;
   top: -80px;
 }
 .secure {
-  background: url('/image/Frame 4.png') no-repeat
-    top;
+  background: url("/image/Frame 4.png") no-repeat top;
   position: relative;
   top: -80px;
 }
 .pdf {
-  background: url('/image/pdf.png') no-repeat top;
+  background: url("/image/pdf.png") no-repeat top;
   position: relative;
   top: -80px;
 }
 .csv {
-  background: url('/image/csv.png') no-repeat top;
+  background: url("/image/csv.png") no-repeat top;
   position: relative;
   top: -80px;
 }
@@ -292,44 +288,4 @@ footer a {
 }
 footer a:hover {
   color: black;
-}
-@media (max-width: 1300px) {
-  .wrapper {
-    padding-right: 100px;
-    padding-left: 100px;
-  }
-  .features,
-  .technology {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .footer {
-    flex-wrap: wrap;
-  }
-  #fourthSection-pic {
-    width: 55%;
-  }
-  .md-visibility {
-    display: none;
-  }
-}
-@media (max-width: 991px) {
-  nav {
-    display: block;
-    justify-content: space-between;
-  }
-  .sm-visibility {
-    display: none;
-  }
-  input {
-    width: 250px;
-  }
-}
-@media (max-width: 768px) {
-  .title {
-    font-size: 50px;
-  }
-  .details {
-    margin-right: 100px;
-  }
 }
