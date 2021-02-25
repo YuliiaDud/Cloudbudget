@@ -289,3 +289,43 @@ footer a {
 footer a:hover {
   color: black;
 }
+@media (max-width: 1300px) {
+  .wrapper {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .features,
+  .technology {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  #fourthSection-pic {
+    width: 55%;
+  }
+  .md-visibility {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  nav {
+    display: block;
+    justify-content: space-between;
+  }
+  .sm-visibility {
+    display: none;
+  }
+  input {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+  .details {
+    margin-right: 100px;
+  }
+}
