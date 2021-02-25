@@ -1,0 +1,26 @@
+{
+  "name": "cloudbudget",
+  "version": "1.0.0",
+  "description": "This landing page was made for educational purposes only!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliiaDud/Cloudbudget.git"
+  },
+  "author": "Yuliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliiaDud/Cloudbudget/issues"
+  },
+  "homepage": "https://github.com/YuliiaDud/Cloudbudget#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  }
+}
