@@ -374,9 +374,6 @@ footer a:hover {
   }
 }
 @media (max-width: 991px) {
-  body {
-    overflow-x: hidden;
-  }
   .sm-visibility {
     display: none;
   }
@@ -389,18 +386,22 @@ footer a:hover {
   .mobile-menu {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    margin: 0 50%;
     position: absolute;
     top: 130px;
     z-index: 10;
     background: transparent;
-    left: 100%;
+    left: -100%;
   }
   .mobile-menu a {
-    font-size: 24px;
+    font-size: 25px;
+  }
+  .mobile-menu a:hover {
+    color: #dcdbdb;
+    font-weight: 700;
   }
   .mobile-menu.active {
-    left: 40%;
+    left: 0;
   }
 
   .login-nav {
@@ -424,7 +425,6 @@ footer a:hover {
   .wrapper {
     padding-right: 20px;
     padding-left: 20px;
-    overflow-x: hidden;
   }
   .contact {
     flex-direction: column;
