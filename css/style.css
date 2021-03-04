@@ -23,8 +23,8 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 #logo {
@@ -37,10 +37,12 @@ nav a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0 25px;
 }
 a:hover {
   text-decoration: none;
   color: white;
+  font-weight: bolder;
 }
 nav button {
   border: 1px solid #ffffff;
@@ -52,10 +54,6 @@ nav button {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  justify-self: end;
-}
-button:hover {
-  cursor: pointer;
 }
 .title {
   font-weight: bold;
@@ -91,9 +89,10 @@ button:hover {
 }
 .overview {
   display: flex;
+  justify-content: space-between;
 }
 .overview-text {
-  max-width: 445px;
+  width: 445px;
   margin-right: 125px;
   text-align: justify;
 }
@@ -105,10 +104,6 @@ h2 {
 .overview h2 {
   text-align: left;
   padding: 0;
-}
-.overview a {
-  text-decoration: none;
-  color: #ed4c5c;
 }
 #features {
   background: #fafafa;
@@ -123,7 +118,7 @@ h2 {
 .feature {
   border-radius: 8px;
   width: 300px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -141,10 +136,17 @@ h2 {
   font-size: 12px;
   display: inline;
 }
-.feature a {
+.feature-text {
+  padding: 0 20px;
+  text-align: justify;
+}
+.more,
+#overviewBtn {
   color: rgba(213, 32, 71, 0.8);
-  text-decoration: none;
   font-weight: bold;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 0 30px;
 }
 #technology {
   padding-bottom: 200px;
@@ -247,6 +249,7 @@ input {
   border-radius: 6px;
   border: 1px solid #333333;
   margin-bottom: 25px;
+  outline: none;
 }
 .name {
   width: 250px;
@@ -352,6 +355,19 @@ footer a:hover {
   display: flex;
   align-items: center;
 }
+#overview-learn-more {
+  display: none;
+}
+#more {
+  display: none;
+}
+dialog {
+  border: none;
+  text-align: center;
+}
+dialog p {
+  font-size: 20px;
+}
 
 @media (max-width: 1300px) {
   .wrapper {
@@ -369,12 +385,9 @@ footer a:hover {
   #fourthSection-pic {
     width: 55%;
   }
-  .md-visibility {
-    display: none;
-  }
 }
 @media (max-width: 991px) {
-  .sm-visibility {
+  .md-visibility {
     display: none;
   }
   input {
@@ -386,7 +399,7 @@ footer a:hover {
   .mobile-menu {
     display: flex;
     flex-direction: column;
-    margin: 0 50%;
+    margin: 0 40%;
     position: absolute;
     top: 130px;
     z-index: 10;
@@ -396,16 +409,15 @@ footer a:hover {
   .mobile-menu a {
     font-size: 25px;
   }
-  .mobile-menu a:hover {
-    color: #dcdbdb;
-    font-weight: 700;
-  }
   .mobile-menu.active {
     left: 0;
   }
-
   .login-nav {
     margin-right: 20px;
+  }
+  .title {
+    padding-top: 140px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -416,8 +428,6 @@ footer a:hover {
 @media (max-width: 576px) {
   .title {
     font-size: 45px;
-    padding-top: 140px;
-    padding-bottom: 20px;
   }
   .details {
     font-size: 20px;

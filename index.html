@@ -30,7 +30,7 @@
                 <h1 class="title">CloudBudget</h1>
                 <p class="details">Cloud budget management for everyone.<br> Only €69.95 a Month After a 7 Day Trial of<br>
                 Up to €4.99</p>
-                <button>Sign up</button>
+                <button type="submit">Sign up</button>
             </div>
         </div>
     </header>
@@ -40,10 +40,15 @@
                 <h2>Easy to Use Cloud Budget Management Software</h2>
                 <p>Our software is made so you can access and manage your budget and expenses online at any time from any device. It
                 provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a
-                glance. Read below to find out more.</p>
-                <a href="#">Learn more</a>
+                glance. <span id="readBelow">Read below to find out more.</span><span id="more"> <br>Lorem ipsum dolor sit amet. Erisque enim ligula venenatis dolor. Maecenas nisl est,
+                ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum
+                nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec
+                vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+                tempor porta.</span></p>
+                
+                <button id="overviewBtn">Read more</button>
             </div>
-            <img src="./image/firstSec.jpg" class="md-visibility">
+            <img src="./image/firstSec.jpg" style="height: 311px;" class="md-visibility">
         </div>
     </section>
     <section id="features">
@@ -54,19 +59,31 @@
                     <img src="./image/Bg.png" alt="money">
                     <div class="feature">
                     <h4>Supports All Currencies and<br> Cards</h4>
-                    <p>We support all popular currencies and is<br> fully customizable to add</p><br><br><a href="#">Read More</a></div>
+                    <p>We support all popular currencies and is<br> fully customizable to add</p><br><br>
+                    <p class="feature-text" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam ratione adipisci eaque inventore in! Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore aperiam, architecto quaerat harum similique
+                        quod asperiores vero dolorum molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum.</p>
+                    <button class="more">Read More</button></div>
                 </div>
                 <div>
                     <img src="./image/Bg2.png" alt="mobile_phone">
                     <div class="feature">
                     <h4>Manage your expenses on<br> the go</h4>
-                    <p>You can access your account from<br> anywhere in the world on any device</p><br><br><a href="#">Read More</a></div>
+                    <p>You can access your account from<br> anywhere in the world on any device</p><br><br>
+                    <p class="feature-text" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam ratione adipisci eaque inventore in! Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore aperiam, architecto quaerat harum similique
+                        quod asperiores vero dolorum molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum.</p>
+                    <button class="more">Read More</button></div>
                 </div>
                 <div>
                     <img src="./image/Bg3.png" alt="hall">
                     <div class="feature">
                     <h4>Cloud Budget Management<br> Software</h4>
-                    <p>Our software is made so you can access<br> and manage your budget</p><br><br><a href="#">Read More</a></div>
+                    <p>Our software is made so you can access<br> and manage your budget</p><br><br>
+                    <p class="feature-text" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam ratione adipisci eaque inventore in! Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore aperiam, architecto quaerat harum similique
+                        quod asperiores vero dolorum molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum.</p>
+                    <button class="more">Read More</button></div>
                 </div>
             </div>   
         </div>
@@ -119,7 +136,7 @@
                 </p>
                 <a href=''><img src="./image/playstore.png" alt="playstore"></a>
                 <a href=''><img src="./image/apple.png" alt="apple"></a>
-                <a href=''><img src=".image/windows.png" alt="windows"></a>
+                <a href=''><img src="./image/windows.png" alt="windows"></a>
             </div>
             <img id="fourthSection-pic" src="./image/Video_bg.png" alt="guy-in-the-restaurant" class="md-visibility">
         </div>
@@ -140,7 +157,11 @@
                 <input type="text" name="LastName" placeholder="Last Name" class="name"><br>
                 <input type="tel" name="tel" placeholder="Phone number"><br>
                 <input type="text" name="text" placeholder="Type chosen service"><br>
-                <button type="submit">SUBMIT NOW</button>
+                <dialog>
+                    <p>Your application has been submitted. Thank you!</p>
+                    <button id="close">Done!</button>
+                </dialog>
+                <button type="submit" id="show">SUBMIT NOW</button>
             </form>
         </div>
     </section>
